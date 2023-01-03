@@ -136,16 +136,18 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%px;
+    height: 60px;
     min-width: 380px;
-    background-color: #f5a0ea7d;
+    background: #e3c0da62;
     border: 20px;
     margin: 20px;
     border-radius: 12px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    font-size: 40px;
-    font-family: 'Kanit', sans-serif;
-    cursor: pointer;
+    width: 90%;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
 }
 
   
