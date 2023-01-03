@@ -19,3 +19,25 @@ const plus = document.querySelector(".plus"),
         }
      
     });
+
+const plus1 = document.querySelector(".plus1"),
+    minus1 = document.querySelector(".minus1"),
+    num1 = document.querySelector(".num1");
+
+    let b = 1;
+
+    plus1.addEventListener("click", ()=>{
+        b++;
+       // a = (a < 10) ? "0" + a : a; display numbero com zero
+       num1.innerText = b;
+        console.log(b);
+    });
+
+    minus1.addEventListener("click", ()=>{
+        if(b > 1){
+            b--;
+          //  a = (a < 10) ? "0" + a : a; display numbero com zero
+            num1.innerText = b;
+        }
+     
+    });
