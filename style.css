@@ -65,17 +65,24 @@ body {
 header {
     display: flex;
     justify-content: center;
-    margin: 20px;
-    margin-top: 60px;
-    margin-bottom: 50px;
+}
+
+header h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    background: #ce8c8c62;
     border: 20px;
-    font-family: 'Kanit', sans-serif;
-    color: #141005;
-    background-color: #f5a0ea7d;
-    font-size: 50px;
+    margin: 20px;
+    margin-top: 40px;
     border-radius: 12px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    min-width: 200px;
+    width: 70%;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
 }
 
 .container {
@@ -125,11 +132,16 @@ header {
     cursor: pointer;
 }
 
-.wrapper span.num {
+.wrapper span.num, .wrapper span.num1 {
     font-size: 50px;
     border-right: 2px solid rgba(0, 0, 0, 0.2);
     border-left: 2px solid rgba(0, 0, 0, 0.2);
     pointer-events: none;
+}
+
+.bora {
+    display: flex;
+    justify-content: center;
 }
 
 .bora button{
@@ -137,13 +149,12 @@ header {
     align-items: center;
     justify-content: center;
     height: 60px;
-    min-width: 380px;
-    background: #e3c0da62;
+    background: #ce8c8c62;
     border: 20px;
     margin: 20px;
     border-radius: 12px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    width: 90%;
+    width: 40%;
     text-align: center;
     font-size: 32px;
     font-weight: 400;
