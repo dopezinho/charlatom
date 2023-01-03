@@ -124,6 +124,7 @@ header h1 {
     color: none;
     background: none;
     user-select: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .wrapper {
