@@ -141,8 +141,8 @@ body {
     background-color: #faebd7;
     height: 100vh;
     width: 100%;
-    background-image: url(./assets/boy\ and\ bear\ sketch\ by\ sam\ mason6.png);
-    background-size: cover;
+    background-image: url(./assets/boy\ and\ bear\ sketch\ by\ sam\ mason7.png);
+    background-size:contain;
 }
 
 header {
