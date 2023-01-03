@@ -136,14 +136,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 60px;
+    height: 100%px;
     min-width: 380px;
     background-color: #f5a0ea7d;
     border: 20px;
     margin: 20px;
     border-radius: 12px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    margin-bottom: 100px;
     font-size: 40px;
     font-family: 'Kanit', sans-serif;
     cursor: pointer;
