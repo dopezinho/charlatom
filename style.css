@@ -59,7 +59,9 @@ table {
 body {
     background-color: #faebd7;
     height: 100vh;
-    width: 100%;    
+    width: 100%;
+    background-image: url(./assets/boy\ and\ bear\ sketch\ by\ sam\ mason1.png);
+    background-size: cover;
 }
 
 header div.logo {
@@ -110,7 +112,7 @@ header h1 {
     border: 20px;
     margin: 20px;
     border-radius: 12px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
     width: 90%;
     text-align: center;
     font-size: 40px;
@@ -134,7 +136,7 @@ header h1 {
     border: 20px;
     margin: 20px;
     border-radius: 12px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
     margin-bottom: 100px;
 }
 
@@ -168,13 +170,13 @@ header h1 {
     border: 20px;
     margin: 20px;
     border-radius: 12px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     width: 40%;
     text-align: center;
     font-size: 32px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
 }
 
   
