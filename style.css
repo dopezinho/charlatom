@@ -145,6 +145,12 @@ body {
     background-size: cover;
 }
 
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
 header div.logo {
     display: flex;
     justify-content: center;
@@ -157,6 +163,7 @@ header div.logo {
 header .charlato {
     display: flex;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 header h1 {
@@ -221,7 +228,7 @@ header h1 {
     margin: 20px;
     border-radius: 12px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 
 .wrapper span {
