@@ -118,6 +118,11 @@ header h1 {
     font-family: 'Poppins', sans-serif;
 }
 
+.wrapper span::selection, .players h2::selection, .players1 h2::selection {
+    color: none;
+    background: none;
+}
+
 .wrapper {
     display: flex;
     align-items: center;
@@ -168,6 +173,7 @@ header h1 {
     font-size: 32px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
+    cursor: pointer;
 }
 
   
