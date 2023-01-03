@@ -62,7 +62,16 @@ body {
     width: 100%;    
 }
 
-header {
+header div.logo {
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+header .charlato {
     display: flex;
     justify-content: center;
 }
@@ -75,7 +84,7 @@ header h1 {
     background: #ce8c8c62;
     border: 20px;
     margin: 20px;
-    margin-top: 40px;
+    margin-top: 10px;
     border-radius: 12px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     width: 70%;
